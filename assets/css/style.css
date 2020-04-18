@@ -80,7 +80,6 @@ h3 {
 }
 
 nav {
-  float: right;
   margin-top: 25px;
 }
 
@@ -216,4 +215,23 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.navbarbgcolor{
+  background-color: #999;
+}
+
+.brandbgcolor{
+  background-color: #4aaaa5;
+  padding-right: 15px;
+}
+
+.fluidimg{
+  height: 350px;
+  float: left;
+  padding: 25px 25px 25px 25px;
+}
+
+.controlform{
+  height: 100px !important;
 }
