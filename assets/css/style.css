@@ -235,3 +235,35 @@ input[type=submit] {
 .controlform{
   height: 100px !important;
 }
+
+@media screen and (max-width: 768px){
+  body{
+    justify-content: center;
+    background: none;
+    background-color: burlywood;
+    }
+  }
+@media screen and (max-width: 640px){
+  body{
+    justify-content: center;
+    background: none;
+    background-color: red;
+  }
+  .container {
+    width: 320px;
+  }
+  .work:nth-child(even) {
+    margin-right: 10px;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 175px;
+    margin: 10px;
+    overflow: auto;
+  }
+  .work h3 {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
